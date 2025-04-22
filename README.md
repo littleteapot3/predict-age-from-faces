@@ -1,4 +1,4 @@
- Face Age Prediction with ResNet50
+# Face Age Prediction with ResNet50
 
 A computer vision model that predicts a person’s age from a facial image using a fine-tuned ResNet50 architecture. Built as part of a supervised learning project to support real-world applications like age verification at retail checkout.
 
@@ -36,24 +36,31 @@ The model was trained using a dataset of 7.6k labeled face images, and validated
 
 ## How to Run
 
-1. Clone the repo and unzip the dataset into a folder called `faces/`, with:
-   ```
-   ./faces/
-   ├── labels.csv
-   └── final_files/
-       ├── 00001.jpg
-       ├── ...
-   ```
+⚠️ This project cannot be run end-to-end without the full image dataset, which is not included due to size and licensing constraints.
 
-2. Install dependencies:
-   ```bash
-   pip install tensorflow pandas matplotlib
-   ```
+If you have access to the dataset, place the files in the following structure:
 
-3. Run the training script or notebook:
-   ```bash
-   python run_model_on_gpu.py
-   ```
+```
+./faces/
+├── labels.csv
+└── final_files/
+    ├── 00001.jpg
+    ├── ...
+```
+
+> The included `labels.csv` provides a reference for the expected file format.
+
+To install dependencies:
+
+```bash
+pip install tensorflow pandas matplotlib
+```
+
+Then run the training script or notebook:
+
+```bash
+python run_model_on_gpu.py
+```
 
 Or open the notebook:
 
@@ -70,3 +77,8 @@ This model could be used as part of a decision-support system at retail checkout
 - Add dropout layers to reduce overfitting
 - Explore lightweight architectures (e.g., MobileNetV2) for edge deployment
 - Improve generalization through data augmentation and fine-tuning
+
+## Author
+
+Leah W.  
+_Data Science Portfolio Project_
