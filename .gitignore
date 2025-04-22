@@ -1,0 +1,10 @@
+faces/final_files/
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Don't track datasets or checkpoints
+*.h5
+*.csv
+*.npy
