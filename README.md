@@ -1,3 +1,12 @@
+> 📦 This project has been archived.
+
+This repository was part of my TripleTen Data Science Bootcamp. It has been moved into my central bootcamp project collection:  
+🔗 [Data projects (TripleTen)](https://github.com/littleteapot3/data-projects-tripleten)
+
+This version is now read-only and preserved for reference.
+
+----
+
 # Face Age Prediction with ResNet50
 
 A computer vision model that predicts a person’s age from a facial image using a fine-tuned ResNet50 architecture. Built as part of a supervised learning project to support real-world applications like age verification at retail checkout.
